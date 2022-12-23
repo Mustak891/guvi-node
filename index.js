@@ -25,7 +25,7 @@ const ConnectionDB = async () => {
 }
 await ConnectionDB();
 
-app.use(cors({origin: 'https://guvi-jobtask.netlify.app', credentials: true,}));
+app.use(cors({ origin: 'https://guvi-jobtask.netlify.app', credentials: true, }));
 
 app.use(express.json());
 
@@ -39,4 +39,4 @@ app.get('/', (req, res) => {
 
 app.use('/api', usersRouter);
 
-app.listen(PORT, () => { console.log(`Server is running on port ${PORT}`)});
+app.listen(PORT, () => { console.log(`Server is running on port ${PORT}`) });

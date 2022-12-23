@@ -3,7 +3,7 @@ import dotenv from 'dotenv';
 import cors from 'cors';
 import mongoose from 'mongoose';
 import cookieParser from 'cookie-parser';
-import { usersRouter } from './routes/users.js';
+import { usersRouter } from './users.js';
 
 const app = express();
 

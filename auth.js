@@ -1,4 +1,4 @@
-import User from "./UserSchema.js";
+import User from "./userSchema.js";
 import jwt from "jsonwebtoken";
 
 const auth = async (req, res, next) => {

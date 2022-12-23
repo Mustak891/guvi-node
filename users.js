@@ -1,7 +1,7 @@
-import User from "../modules/UserSchema.js";
+import User from "./userSchema.js";
 import express from 'express';
 import bcrypt from 'bcrypt';
-import auth from "../modules/auth.js";
+import auth from "./auth.js";
 
 const router = express.Router();
 

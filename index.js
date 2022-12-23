@@ -25,7 +25,7 @@ const ConnectionDB = async () => {
 }
 await ConnectionDB();
 
-app.use(cors({ origin: 'https://guvi-jobtask.netlify.app', credentials: true, }));
+app.use(cors({ origin: ['https://guvi-jobtask.netlify.app', 'http://localhost:3000'], credentials: true, }));
 
 app.use(express.json());
 
